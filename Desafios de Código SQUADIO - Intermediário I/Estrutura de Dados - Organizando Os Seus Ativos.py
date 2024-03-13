@@ -23,9 +23,9 @@ for _ in range(quantidadeAtivos):
     codigoAtivo = input()
     ativos.append(codigoAtivo)
 
-#TODO: Ordenar os ativos em ordem alfabética.
+# Ordenar os ativos em ordem alfabética.
 ativos.sort()
 
-#TODO: Imprimir a lista de ativos ordenada, conforme a tabela de exemplos.
+# Imprimir a lista de ativos ordenada, conforme a tabela de exemplos.
 for i in range(quantidadeAtivos):
-  print(ativos[i] + "\n")
+    print(ativos[i] + "\n")

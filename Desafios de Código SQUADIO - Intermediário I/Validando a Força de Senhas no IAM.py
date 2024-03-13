@@ -36,7 +36,7 @@ def verificar_forca_senha(senha):
     sequencias_comuns = ["123456", "abcdef"]
     for sequencia in sequencias_comuns:
         if sequencia in senha:
-          return "Sua senha contem uma sequencia comum. Tente uma senha mais complexa."
+            return "Sua senha contem uma sequencia comum. Tente uma senha mais complexa."
 
     # Verificando se a senha contém palavras comuns
     palavras_comuns = ["password", "123456", "qwerty"]
